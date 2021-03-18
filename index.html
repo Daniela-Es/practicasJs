@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.6.0/journal/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Scripts</title>
+</head>
+
+<body>
+    <h1>Saludos desde JavaScript</h1>
+    <button class="btn btn-primary" type="button" onclick="saludar()">Saludo</button>
+
+    <h2 class="texto"> </h2>
+
+    <hr>
+
+    <h1>Area de un cuadrado</h1>
+    <p>Introduce la longitud de un lado del cuadrado</p>
+    <input type="number" id="lado" min="0">
+    <button class="btn btn-primary" type="button" onclick="area()">Calcular</button>
+    <p>Area:</p>
+    <p class="resultado">
+    </p>
+    <hr>
+
+    <h1>IMC</h1>
+    <p>Introduce tu peso y tu altura para poder calcular tu IMC</p>
+    <input type="number" id="peso" placeholder="peso en kg" step="0.1"> <br>
+    <input type="number" id="altura" placeholder="altura en metros" step="0.1">
+    <button class="btn btn-primary" type="button" onclick="imc()">IMC</button>
+    <p>Tu IMC es:</p>
+    <p class="imc"> </p>
+
+    <hr>
+
+    <h1>Numero par?</h1>
+    <p>Introduce un numero para saber si es par o no</p>
+    <input type="number" id="numero">
+    <button class="btn btn-primary" type="button" onclick="numpar()">Es par?</button>
+    <p class="res"> </p>
+
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+<script src="app.js"></script>
+
+</html>
